@@ -60,3 +60,74 @@ header{
     color: #222;
     width: 500px;
 }
+
+section{
+    padding: 30px 10%;
+}
+
+.subsection{
+    width: 100%;
+    height: 150px;
+    margin: 30px 0;
+}
+
+.subsection-box1, .subsection-box2, .subsection-box3{
+    width: 20%;
+    height: 150px;
+    float: left;
+    text-align: center;
+    line-height: 150px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.subsection-box1 p, .subsection-box2 p, .subsection-box3 p{
+    padding-top: 35px;
+    margin: 0;
+    color: #FFF;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.subsection-box1{
+    background-color: #2364AA;
+}
+
+.subsection-box2{
+    background-color: #3DA5D9;
+}
+
+.subsection-box3{
+    background-color: #73BFB8;
+}
+
+.subsection-content{
+    width: 80%;
+    height: 150px;
+    float: left;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.subsection-content h3{
+    font-size: 20px;
+    margin: 0 0 15px 0;
+    padding: 5px;
+}
+
+.subsection-content p{
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.subsection-title1{
+    color: #2364AA;
+}
+
+.subsection-title2{
+    color: #3DA5D9;
+}
+
+.subsection-title3{
+    color: #73BFB8;
+}
