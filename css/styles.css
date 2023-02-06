@@ -86,6 +86,7 @@ section{
     margin: 0;
     color: #FFF;
     font-size: 18px;
+    font-weight: bold;
     line-height: 24px;
 }
 
@@ -130,4 +131,12 @@ section{
 
 .subsection-title3{
     color: #73BFB8;
+}
+
+footer{
+    background-image: url("/img/rodape.jpg");
+}
+
+.about-card{
+    
 }
