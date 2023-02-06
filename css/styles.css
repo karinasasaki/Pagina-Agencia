@@ -135,8 +135,28 @@ section{
 
 footer{
     background-image: url("/img/rodape.jpg");
+    background-position: center;
+    padding: 30px 10%;
 }
 
 .about-card{
-    
+    float: left;
+    width: 350px;
+    margin-right: 50px;
+    background-color: white;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+img{
+    padding-top: 30px;
+}
+
+.about-card p{
+    margin: 50px 0;
+    padding: 0 30px;
+    font-size: 14px;
+    line-height: 22px;
+    color: #888;
+    text-align: justify;
 }
