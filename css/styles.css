@@ -42,7 +42,7 @@ header{
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 175px;
+    height: 160px;
     background-color: rgb(221, 221, 221, 0.9);
 }
 
@@ -159,4 +159,57 @@ img{
     line-height: 22px;
     color: #888;
     text-align: justify;
+}
+
+form{
+    margin-top: 300px;
+    width: 55%;
+    height: 350px;
+    background-color: rgb(255, 255, 255, 0.5);
+    position: relative;
+    display: block;
+    padding: 40px;
+}
+
+input[type=text], input[type=email], textarea{
+    width: 400px;
+    border: none;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #AAA;
+    background-color: transparent;
+}
+
+input[type=submit]{
+    background-color: #222;
+    color: #FFF;
+    border: 1px transparent solid;
+    width: 100px;
+    padding: 6px;
+    float: right;
+    margin-right: 240px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+input[type=submit]:hover{
+    background-color: #FFF;
+    color: #222;
+    border: 1px solid #222;
+}
+
+textarea{
+    height: 120px;
+}
+
+input::placeholder, textarea::placeholder{
+    font-size: 14px;
+}
+
+.copyright{
+    color: #222;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    margin: 90px auto 30px auto;
 }
